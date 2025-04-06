@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelly AI - Legal Assistant</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Animated Welcome Section -->
+    <div class="welcome-section">
+        <h1>Welcome to <span>Kelly AI</span></h1>
+        <p>Your Personal Legal Assistant for Case Summaries & IPC Laws</p>
+    </div>
+
+    <!-- Chat Container -->
+    <div class="chat-container">
+        <div class="ai-chat-box">
+            <img src="/images/ai.png" alt="AI Avatar" id="aiImage" width="50">
+            <div class="ai-chat-area">
+                Hello! How Can I Assist You with Legal Matters Today?
+            </div> 
+        </div>
+    </div>
+
+    <!-- Prompt Area -->
+    <div class="prompt-area">
+        <input type="text" id="prompt" placeholder="Ask about laws, IPCs, or case summaries...">
+        <button id="image">
+            <img src="/images/img.svg" alt="">
+            <input type="file" accept="image/*" hidden>
+        </button>
+        <button id="submit">
+            <img src="/images/submit.svg" alt="">
+        </button>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

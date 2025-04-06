@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <li><a href="login.html" class="nav-link">Login</a></li>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEGAL | AI-Powered Legal Documentation</title>
+    <link rel="stylesheet" href="/css/legal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">LEGAL<span></span></div>
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="#problems" class="nav-link">Problems</a></li>
+                <li><a href="#solution" class="nav-link">Solution</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#usp" class="nav-link">USP</a></li>
+                <li><a href="#business" class="nav-link">Business</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href=index.html class="nav-link">Ai Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Revolutionizing Legal Documentation with AI</h1>
+            <p>Transform your legal practice with our AI-powered documentation system that saves time, improves accuracy, and enhances security.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Request Demo</a>
+                <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="document-animation">
+            <div class="document" id="doc1"></div>
+            <div class="document" id="doc2"></div>
+            <div class="document" id="doc3"></div>
+        </div>
+    </section>
+    
+    <section  class="section problems" id="problems">
+        <h2 class="section-title">Challenges in the Legal System</h2>
+        <div class="problem-cards">
+            <div class="problem-card" data-scroll>
+                <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                     alt="Legal paperwork" class="problem-img">
+                <i class="fas fa-clock"></i>
+                <h3>Time-Consuming Paperwork</h3>
+                <p>Manual documentation delays case progress and reduces efficiency in legal proceedings.</p>
+            </div>
+            <div class="problem-card" data-scroll>
+                <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                     alt="Legal research" class="problem-img">
+                <i class="fas fa-search"></i>
+                <h3>Difficult IPC Identification</h3>
+                <p>Lawyers struggle to find relevant IPC sections, leading to incomplete or inaccurate filings.</p>
+            </div>
+            <div class="problem-card" data-scroll>
+                <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                     alt="Court delays" class="problem-img">
+                <i class="fas fa-hourglass-half"></i>
+                <h3>Judicial Delays</h3>
+                <p>Case backlogs slow down justice, frustrating both legal professionals and clients.</p>
+            </div>
+            <div class="problem-card" data-scroll>
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                     alt="Data security" class="problem-img">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Data Security Risks</h3>
+                <p>Sensitive legal documents need protection against loss, theft, or unauthorized access.</p>
+            </div>
+        </div>
+        
+        <h3 class="section-title">Real-World Case Examples</h3>
+        <div class="case-examples">
+            <div class="case-example" data-scroll>
+                <div class="evidence-timeline">
+                    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201710/aarushi_story_647_101217084524_0.jpg?VersionId=.Wl5juPjRD0CUoT9dYKljjj.4kBaKd6s&size=690:388" 
+                         alt="Aarushi Talwar case evidence">
+                </div>
+                <h4>The Aarushi Talwar Case (2008)</h4>
+                <p>A high-profile double murder case where forensic evidence was mishandled and lost, leading to a lack of conclusive proof and years of courtroom confusion.</p>
+            </div>
+            <div class="case-example" data-scroll>
+                <div class="evidence-timeline">
+                    <img src="https://images.hindustantimes.com/rf/image_size_640x362/HT/p2/2018/09/26/Pictures/_9fa005a4-c110-11e8-b1a0-a49c7cb48219.jpg" 
+                         alt="Uphaar Cinema case documents">
+                </div>
+                <h4>The Uphaar Cinema Fire Case (1997)</h4>
+                <p>Important documents went missing over time, weakening the case and resulting in lesser punishments for those responsible.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="solution" class="section solution">
+        <h2 class="section-title">Our Solution</h2>
+        <div class="investigation-flow">
+            <div class="flow-step">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGoAsKyjDAf4DRZWpCPXXEyRuMGSRYP0jZkQ&s" 
+                     alt="Evidence collection">
+                <span>1. Evidence Collection</span>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" 
+                     alt="Document analysis">
+                <span>2. Document Analysis</span>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">
+                <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" 
+                     alt="Legal research">
+                <span>3. Legal Research</span>
+            </div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">
+                <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" 
+                     alt="Case preparation">
+                <span>4. Case Preparation</span>
+            </div>
+        </div>
+        
+        <div class="feature-cards">
+            <div class="feature-card" data-scroll>
+                <div class="legal-advisory-animation">
+                    <img src="https://images.unsplash.com/photo-1589391886645-d51941baf7fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" 
+                         alt="Legal advisory meeting" class="advisor-img">
+                    <div class="speech-bubble">IPC 302 applies here</div>
+                </div>
+                <h3>AI-Powered Legal Advisory</h3>
+                <p>Real-time statute suggestions during case documentation with contextual recommendations.</p>
+            </div>
+            <div class="feature-card" data-scroll>
+                <div class="ipc-animation">
+                    <div class="law-book"></div>
+                    <div class="search-beam"></div>
+                </div>
+                <h3>Automated IPC Tracking</h3>
+                <p>Instant identification of relevant legal sections based on case details.</p>
+            </div>
+            <div class="feature-card" data-scroll>
+                <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" 
+                     alt="Report generation" class="feature-img">
+                <h3>One-Click Report Generation</h3>
+                <p>Court-ready documents formatted to jurisdiction requirements.</p>
+            </div>
+            <div class="feature-card" data-scroll>
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" 
+                     alt="Secure storage" class="feature-img">
+                <h3>Secure Cloud Storage</h3>
+                <p>Military-grade encryption with version control for all case files.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="features" class="section features">
+        <h2 class="section-title">Key Features</h2>
+        <div class="feature-cards">
+            <div class="feature-card" data-scroll>
+                <i class="fas fa-file-contract"></i>
+                <h3>Blueprint-Based Case Entry</h3>
+                <p>Guided form for easy input that ensures all necessary information is captured.</p>
+            </div>
+            <div class="feature-card" data-scroll>
+                <i class="fas fa-robot"></i>
+                <h3>AI-Powered IPC Tracking</h3>
+                <p>Auto-identifies legal sections relevant to your case facts and arguments.</p>
+            </div>
+            <div class="feature-card" data-scroll>
+                <i class="fas fa-file-export"></i>
+                <h3>Instant Report Generation</h3>
+                <p>Structured case summary with all key details formatted for court submission.</p>
+            </div>
+            <div class="feature-card" data-scroll>
+                <i class="fas fa-lock"></i>
+                <h3>Secure Digital Storage</h3>
+                <p>Cloud-based encrypted data storage with version control and audit trails.</p>
+            </div>
+            <div class="feature-card" data-scroll>
+                <i class="fas fa-gavel"></i>
+                <h3>One-Click Court Submission</h3>
+                <p>Print & present instantly with properly formatted documents.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="usp" class="section usp">
+        <h2 class="section-title">What Makes Legal-I Unique?</h2>
+        <div class="usp-points">
+            <div class="usp-point" data-scroll>
+                <i class="fas fa-brain"></i>
+                <h3>First-of-Its-Kind AI-Powered Legal Software</h3>
+                <p>Combines cutting-edge AI with deep legal domain knowledge.</p>
+            </div>
+            <div class="usp-point" data-scroll>
+                <i class="fas fa-bolt"></i>
+                <h3>Automates IPC Tracking & Case Reports</h3>
+                <p>Dramatically reduces time spent on manual legal research and documentation.</p>
+            </div>
+            <div class="usp-point" data-scroll>
+                <i class="fas fa-shield-virus"></i>
+                <h3>Secure & Scalable</h3>
+                <p>Enterprise-grade solution suitable for individual lawyers, firms, and courts.</p>
+            </div>
+        </div>
+        <div class="usp-highlight" data-scroll>
+            <i class="fas fa-star"></i> Why it Stands Out? → No existing tool combines AI + IPC Tracking + Report Automation
+        </div>
+    </section>
+    
+    <section id="business" class="section business-model">
+        <h2 class="section-title">Business Model</h2>
+        <div class="pricing-options">
+            <div class="pricing-option" data-scroll>
+                <h3>Subscription Model</h3>
+                <p>Monthly/yearly plans for individual lawyers</p>
+                <div class="price">₹499<span>/month</span></div>
+                <ul class="pricing-features">
+                    <li>Basic case management</li>
+                    <li>AI legal research</li>
+                    <li>5GB secure storage</li>
+                </ul>
+                <a href="login.html" class="btn btn-primary">Sign Up</a>
+            </div>
+            <div class="pricing-option popular" data-scroll>
+                <h3>Enterprise Licensing</h3>
+                <p>Bulk access for law firms & courts</p>
+                <div class="price">Custom<span>/quote</span></div>
+                <ul class="pricing-features">
+                    <li>Unlimited cases</li>
+                    <li>Advanced analytics</li>
+                    <li>Priority support</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">Contact Sales</a>
+            </div>
+            <div class="pricing-option" data-scroll>
+                <h3>Freemium Model</h3>
+                <p>Free basic version with paid premium features</p>
+                <div class="price">₹0<span>/forever</span></div>
+                <ul class="pricing-features">
+                    <li>Limited case management</li>
+                    <li>Basic document storage</li>
+                    <li>Community support</li>
+                </ul>
+                <a href=" login.html" class="btn btn-primary">Try Free</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section contact">
+        <h2 class="section-title">Have Questions?</h2>
+        <p>We'd love to hear from you. Contact our team to learn more about how Legal-I can transform your legal documentation process.</p>
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="form-control" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Legal-I</h3>
+                <p>AI-powered legal documentation solution for modern law practices.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#problems">Problems</a></li>
+                    <li><a href="#solution">Solution</a></li>
+                    <li><a href="#features">Features</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Legal-I. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="/js/legal.js"></script>
+</body>
+</html>
